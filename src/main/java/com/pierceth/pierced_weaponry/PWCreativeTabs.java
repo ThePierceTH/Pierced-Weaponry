@@ -19,7 +19,7 @@ public class PWCreativeTabs {
     public static final RegistryObject<CreativeModeTab> PIERCED_WEAPONRY = TABS.register("items",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup." + Constants.MOD_ID + ".items"))
-                    .icon(() -> new ItemStack(Items.ACACIA_FENCE.asItem()))
+                    .icon(() -> new ItemStack(PWItems.EK_ZWEIHANDER.get()))
                     .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
                     .displayItems((params, output) -> {
                         PWItems.ITEMS.getEntries().forEach(it -> {

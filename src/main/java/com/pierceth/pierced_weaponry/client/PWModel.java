@@ -11,12 +11,12 @@ public class PWModel extends GeoModel<PWItem> {
 
     @Override
     public ResourceLocation getModelResource(PWItem value) {
-        return new ResourceLocation("geo/" + grabbyTheName(value) + "geo.json");
+        return new ResourceLocation("pierced_weaponry", "geo/" + grabbyTheName(value) + ".geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(PWItem value) {
-        return new ResourceLocation("texture/item/" + grabbyTheName(value) + ".png");
+        return new ResourceLocation("pierced_weaponry", "textures/item/" + grabbyTheName(value) + ".png");
     }
 
     @Override
