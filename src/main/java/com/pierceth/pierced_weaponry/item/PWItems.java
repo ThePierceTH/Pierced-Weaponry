@@ -14,5 +14,5 @@ public class PWItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, Constants.MOD_ID);
 
     public static final RegistryObject<Item> EK_ZWEIHANDER =
-            ITEMS.register("ek_zweihander",() -> new PWItem(Tiers.NETHERITE, 0, 0.0F, new Item.Properties().fireResistant()));
+            ITEMS.register("ek_zweihander", () -> new PWItem(Tiers.NETHERITE, 0, 0.0F, new Item.Properties().fireResistant()));
 }
