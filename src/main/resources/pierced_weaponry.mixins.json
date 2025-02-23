@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.pierceth.pierced_weaponry.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "pierced_weaponry.mixins.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
