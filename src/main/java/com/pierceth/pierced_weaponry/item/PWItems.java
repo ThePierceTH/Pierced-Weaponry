@@ -1,7 +1,6 @@
 package com.pierceth.pierced_weaponry.item;
 
 import com.pierceth.pierced_weaponry.Constants;
-import com.pierceth.pierced_weaponry.item.custom.EclipseKnightZweihander;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Tiers;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,5 +13,7 @@ public class PWItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, Constants.MOD_ID);
 
     public static final RegistryObject<Item> EK_ZWEIHANDER =
-            ITEMS.register("ek_zweihander", () -> new PWItem(Tiers.NETHERITE, 0, 0.0F, new Item.Properties().fireResistant()));
+            ITEMS.register("ek_zweihander", () -> new PWItem(0, 0.0F));
+    public static final RegistryObject<Item> EK_LONGSWORD =
+            ITEMS.register("ek_longsword", () -> new PWItem(0, -2.8F));
 }

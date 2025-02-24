@@ -2,6 +2,7 @@ package com.pierceth.pierced_weaponry.item;
 
 import com.pierceth.pierced_weaponry.client.PWRenderer;
 import net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Tiers;
@@ -17,8 +18,8 @@ public class PWItem extends SwordItem implements GeoItem {
 
     private AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
 
-    public PWItem(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
-        super(Tiers.NETHERITE, pAttackDamageModifier, pAttackSpeedModifier, pProperties);
+    public PWItem(int attackDmg, float attackSpd) {
+        super(Tiers.NETHERITE, attackDmg, attackSpd, new Item.Properties().fireResistant());
     }
 
     @Override
@@ -33,7 +34,6 @@ public class PWItem extends SwordItem implements GeoItem {
         consumer.accept(new IClientItemExtensions() {
 
             private PWRenderer itrenders;
-
             @Override
             public BlockEntityWithoutLevelRenderer getCustomRenderer() {
                 this.itrenders = new PWRenderer();

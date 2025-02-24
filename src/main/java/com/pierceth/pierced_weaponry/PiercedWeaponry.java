@@ -1,5 +1,6 @@
 package com.pierceth.pierced_weaponry;
 
+import net.minecraftforge.common.ForgeConfig;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -11,16 +12,15 @@ import com.pierceth.pierced_weaponry.item.PWItems;
 public class PiercedWeaponry {
 
     public PiercedWeaponry() {
+
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        // Register items first
-        PWItems.ITEMS.register(modEventBus);
-
-        // Now register creative tabs
-        PWCreativeTabs.register(modEventBus);
+        CommonClass.init(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
+
         modEventBus.addListener(this::commonSetup);
+
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
