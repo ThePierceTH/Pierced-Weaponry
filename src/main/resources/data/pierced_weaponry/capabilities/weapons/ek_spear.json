@@ -1,0 +1,18 @@
+{
+  "attributes":
+  {
+    "common":
+    {
+      "armor_negation":10.0,
+      "impact":2.0,
+      "max_strikes":6
+    }
+  },
+  "collider":
+  {
+    "number": 4,
+    "center": [0.0, 0.0, -0.2],
+    "size": [0.4, 0.6, 2.4]
+  },
+  "type":"pierceth_greatsword:glaive"
+}

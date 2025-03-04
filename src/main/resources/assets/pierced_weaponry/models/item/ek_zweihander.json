@@ -1,78 +1,76 @@
 {
-  "credit": "Made with Blockbench",
-  "parent": "builtin/entity",
-  "texture_size": [
-    128,
-    128
-  ],
-  "display": {
-    "thirdperson_righthand": {
-      "translation": [
-        0,
-        -2,
-        0
-      ],
-      "scale": [
-        0.9,
-        0.9,
-        0.9
-      ]
-    },
-    "firstperson_righthand": {
-      "rotation": [
-        -24,
-        30,
-        0
-      ],
-      "translation": [
-        14,
-        -11,
-        -10
-      ]
-    },
-    "firstperson_lefthand": {
-      "rotation": [
-        -24,
-        30,
-        0
-      ],
-      "translation": [
-        14,
-        -11,
-        -10
-      ]
-    },
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base": {
     "gui": {
-      "rotation": [
-        -90,
-        -45,
-        -90
-      ],
-      "translation": [
-        -8.5,
-        -8.75,
-        0
-      ],
-      "scale": [
-        0.6,
-        0.6,
-        0.6
-      ]
+      "parent": "pierced_weaponry:item/test"
+    },
+    "ground": {
+      "parent": "pierced_weaponry:item/test"
     },
     "fixed": {
-      "rotation": [
-        -90,
-        45,
-        90
-      ],
-      "translation": [
-        14,
-        -14,
-        0
-      ]
+      "parent": "pierced_weaponry:item/test"
     }
   },
-  "textures": {
-    "particle": "item/ek_zweihander"
+  "perspectives": {
+    "credit": "Pierceth",
+    "parent": "builtin/entity",
+    "texture_size": [
+      128,
+      128
+    ],
+    "display": {
+      "thirdperson_righthand": {
+        "translation": [
+          0,
+          -2,
+          0
+        ],
+        "scale": [
+          0.9,
+          0.9,
+          0.9
+        ]
+      },
+      "thirdperson_lefthand": {
+        "translation": [
+          0,
+          -2,
+          0
+        ],
+        "scale": [
+          0.9,
+          0.9,
+          0.9
+        ]
+      },
+      "firstperson_righthand": {
+        "rotation": [
+          -24,
+          30,
+          0
+        ],
+        "translation": [
+          14,
+          -11,
+          -10
+        ]
+      },
+      "firstperson_lefthand": {
+        "rotation": [
+          -24,
+          30,
+          0
+        ],
+        "translation": [
+          14,
+          -11,
+          -10
+        ]
+      },
+      "textures": {
+        "particle": "item/ek_zweihander"
+      }
+    }
   }
 }

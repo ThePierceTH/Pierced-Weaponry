@@ -2,7 +2,7 @@
   "trail": {
     "color": [216, 216, 216],
     "begin_pos": [0.0, 0.0, -0.2],
-    "end_pos": [0.0, 0.2, -2.2],
+    "end_pos": [0.0, 0.2, -2.6],
     "lifetime": 4,
     "interpolations": 2,
     "texture_path": "pierceth_greatsword:textures/particle/swing_trail.png",
