@@ -1,19 +1,8 @@
 {
+  "parent": "minecraft:item/handheld",
   "loader": "forge:separate_transforms",
-  "gui_light": "front",
+  "credit": "PierceTh",
   "base": {
-    "gui": {
-      "parent": "pierced_weaponry:item/test"
-    },
-    "ground": {
-      "parent": "pierced_weaponry:item/test"
-    },
-    "fixed": {
-      "parent": "pierced_weaponry:item/test"
-    }
-  },
-  "perspectives": {
-    "credit": "Pierceth",
     "parent": "builtin/entity",
     "texture_size": [
       128,
@@ -70,6 +59,26 @@
       },
       "textures": {
         "particle": "item/ek_zweihander"
+      }
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:item/handheld",
+      "textures": {
+        "layer0": "pierced_weaponry:item/ek_zweihander_2d"
+      }
+    },
+    "ground": {
+      "parent": "minecraft:item/handheld",
+      "textures": {
+        "layer0": "pierced_weaponry:item/ek_zweihander_2d"
+      }
+    },
+    "fixed": {
+      "parent": "minecraft:item/handheld",
+      "textures": {
+        "layer0": "pierced_weaponry:item/ek_zweihander_2d"
       }
     }
   }

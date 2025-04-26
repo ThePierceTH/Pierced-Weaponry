@@ -1,11 +1,8 @@
 package com.pierceth.pierced_weaponry;
 
-import com.pierceth.pierced_weaponry.client.PWRenderer;
 import com.pierceth.pierced_weaponry.item.PWItems;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.loading.FMLLoader;
 
 public class CommonClass {

@@ -3,10 +3,10 @@
   {
     "common":
     {
-      "armor_negation":10.0,
-      "impact":2.0,
-      "max_strikes":6
+      "armor_negation":20.0,
+      "impact":4.4,
+      "max_strikes":4
     }
   },
-  "type":"pierceth_greatsword:carver"
+  "type":"epicfight:greatsword"
 }

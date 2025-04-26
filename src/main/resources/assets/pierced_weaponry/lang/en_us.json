@@ -1,3 +1,7 @@
 {
-
+"itemGroup.pierced_weaponry.items": "Pierced Weaponry",
+  "item.pierced_weaponry.ek_zweihander": "Eclipse Knight Zweihander",
+  "item.pierced_weaponry.ek_longsword": "Eclipse Knight Longsword",
+  "item.pierced_weaponry.ek_broadsword": "Eclipse Knight Broadsword",
+  "item.pierced_weaponry.ek_spear": "Eclipse Knight Spear"
 }
